@@ -1,0 +1,5 @@
+{
+  "default_depth": 3,
+  "algorithm": "minimax",
+  "weights": {}
+}
