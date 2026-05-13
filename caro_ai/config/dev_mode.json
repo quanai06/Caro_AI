@@ -1,4 +1,5 @@
 {
-  "auto_play": false,
-  "debug": false
+    "verbose_logging": false,
+    "auto_play": false,
+    "print_board_every_move": false
 }

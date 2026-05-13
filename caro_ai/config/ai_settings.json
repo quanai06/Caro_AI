@@ -1,5 +1,15 @@
 {
-  "default_depth": 3,
-  "algorithm": "minimax",
-  "weights": {}
+    "default_depth": 3,
+    "use_alpha_beta": true,
+    "use_move_ordering": true,
+    "max_nodes_per_move": 500000,
+    "evaluation_weights": {
+        "win": 1000000,
+        "open_four": 100000,
+        "dead_four": 50000,
+        "open_three": 5000,
+        "dead_three": 1000,
+        "open_two": 200,
+        "dead_two": 50
+    }
 }

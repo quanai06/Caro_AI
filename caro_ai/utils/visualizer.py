@@ -1,4 +1,3 @@
-# Console/UI visualizations
-
-def render_board(board):
-    pass
+def print_board(board):
+    for row in board.grid:
+        print(' '.join(row))

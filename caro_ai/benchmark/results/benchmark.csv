@@ -1,0 +1,127 @@
+state_id,state_name,category,turn,difficulty,depth,metric,minimax,alphabeta
+ai_win_now,Máy có thể thắng ngay,win_now,O,easy,2,move,"(7,4)","(7,4)"
+ai_win_now,Máy có thể thắng ngay,win_now,O,easy,2,value,10000000,10000000
+ai_win_now,Máy có thể thắng ngay,win_now,O,easy,2,nodes,0,0
+ai_win_now,Máy có thể thắng ngay,win_now,O,easy,2,time_sec,0.000116,0.000108
+ai_win_now,Máy có thể thắng ngay,win_now,O,easy,2,expected_hit,True,True
+ai_win_now,Máy có thể thắng ngay,win_now,O,easy,2,node_ratio_minimax_over_alphabeta,,
+ai_win_now,Máy có thể thắng ngay,win_now,O,easy,2,time_ratio_minimax_over_alphabeta,1.08,1.00
+ai_win_now,Máy có thể thắng ngay,win_now,O,medium,3,move,"(7,4)","(7,4)"
+ai_win_now,Máy có thể thắng ngay,win_now,O,medium,3,value,10000000,10000000
+ai_win_now,Máy có thể thắng ngay,win_now,O,medium,3,nodes,0,0
+ai_win_now,Máy có thể thắng ngay,win_now,O,medium,3,time_sec,0.000108,0.000106
+ai_win_now,Máy có thể thắng ngay,win_now,O,medium,3,expected_hit,True,True
+ai_win_now,Máy có thể thắng ngay,win_now,O,medium,3,node_ratio_minimax_over_alphabeta,,
+ai_win_now,Máy có thể thắng ngay,win_now,O,medium,3,time_ratio_minimax_over_alphabeta,1.02,1.00
+ai_win_now,Máy có thể thắng ngay,win_now,O,hard,4,move,"(7,4)","(7,4)"
+ai_win_now,Máy có thể thắng ngay,win_now,O,hard,4,value,10000000,10000000
+ai_win_now,Máy có thể thắng ngay,win_now,O,hard,4,nodes,0,0
+ai_win_now,Máy có thể thắng ngay,win_now,O,hard,4,time_sec,0.000114,0.000105
+ai_win_now,Máy có thể thắng ngay,win_now,O,hard,4,expected_hit,True,True
+ai_win_now,Máy có thể thắng ngay,win_now,O,hard,4,node_ratio_minimax_over_alphabeta,,
+ai_win_now,Máy có thể thắng ngay,win_now,O,hard,4,time_ratio_minimax_over_alphabeta,1.09,1.00
+both_attack,Hai bên đều có cơ hội tấn công,both_attack,O,easy,2,move,"(7,7)","(7,7)"
+both_attack,Hai bên đều có cơ hội tấn công,both_attack,O,easy,2,value,9100,9100
+both_attack,Hai bên đều có cơ hội tấn công,both_attack,O,easy,2,nodes,72,23
+both_attack,Hai bên đều có cơ hội tấn công,both_attack,O,easy,2,time_sec,0.019076,0.012657
+both_attack,Hai bên đều có cơ hội tấn công,both_attack,O,easy,2,expected_hit,,
+both_attack,Hai bên đều có cơ hội tấn công,both_attack,O,easy,2,node_ratio_minimax_over_alphabeta,3.13,1.00
+both_attack,Hai bên đều có cơ hội tấn công,both_attack,O,easy,2,time_ratio_minimax_over_alphabeta,1.51,1.00
+both_attack,Hai bên đều có cơ hội tấn công,both_attack,O,medium,3,move,"(6,8)","(6,8)"
+both_attack,Hai bên đều có cơ hội tấn công,both_attack,O,medium,3,value,10000000,10000000
+both_attack,Hai bên đều có cơ hội tấn công,both_attack,O,medium,3,nodes,1110,166
+both_attack,Hai bên đều có cơ hội tấn công,both_attack,O,medium,3,time_sec,0.248633,0.056204
+both_attack,Hai bên đều có cơ hội tấn công,both_attack,O,medium,3,expected_hit,,
+both_attack,Hai bên đều có cơ hội tấn công,both_attack,O,medium,3,node_ratio_minimax_over_alphabeta,6.69,1.00
+both_attack,Hai bên đều có cơ hội tấn công,both_attack,O,medium,3,time_ratio_minimax_over_alphabeta,4.42,1.00
+both_attack,Hai bên đều có cơ hội tấn công,both_attack,O,hard,4,move,"(6,8)","(6,8)"
+both_attack,Hai bên đều có cơ hội tấn công,both_attack,O,hard,4,value,10000000,10000000
+both_attack,Hai bên đều có cơ hội tấn công,both_attack,O,hard,4,nodes,22224,626
+both_attack,Hai bên đều có cơ hội tấn công,both_attack,O,hard,4,time_sec,5.238732,0.304768
+both_attack,Hai bên đều có cơ hội tấn công,both_attack,O,hard,4,expected_hit,,
+both_attack,Hai bên đều có cơ hội tấn công,both_attack,O,hard,4,node_ratio_minimax_over_alphabeta,35.50,1.00
+both_attack,Hai bên đều có cơ hội tấn công,both_attack,O,hard,4,time_ratio_minimax_over_alphabeta,17.19,1.00
+many_moves,"Nhiều nước đi hợp lệ, nhiều nhánh cần xét",many_legal_moves,O,easy,2,move,"(6,6)","(6,6)"
+many_moves,"Nhiều nước đi hợp lệ, nhiều nhánh cần xét",many_legal_moves,O,easy,2,value,-950,-950
+many_moves,"Nhiều nước đi hợp lệ, nhiều nhánh cần xét",many_legal_moves,O,easy,2,nodes,72,32
+many_moves,"Nhiều nước đi hợp lệ, nhiều nhánh cần xét",many_legal_moves,O,easy,2,time_sec,0.040930,0.042399
+many_moves,"Nhiều nước đi hợp lệ, nhiều nhánh cần xét",many_legal_moves,O,easy,2,expected_hit,,
+many_moves,"Nhiều nước đi hợp lệ, nhiều nhánh cần xét",many_legal_moves,O,easy,2,node_ratio_minimax_over_alphabeta,2.25,1.00
+many_moves,"Nhiều nước đi hợp lệ, nhiều nhánh cần xét",many_legal_moves,O,easy,2,time_ratio_minimax_over_alphabeta,0.97,1.00
+many_moves,"Nhiều nước đi hợp lệ, nhiều nhánh cần xét",many_legal_moves,O,medium,3,move,"(6,6)","(6,6)"
+many_moves,"Nhiều nước đi hợp lệ, nhiều nhánh cần xét",many_legal_moves,O,medium,3,value,-50,-50
+many_moves,"Nhiều nước đi hợp lệ, nhiều nhánh cần xét",many_legal_moves,O,medium,3,nodes,1110,300
+many_moves,"Nhiều nước đi hợp lệ, nhiều nhánh cần xét",many_legal_moves,O,medium,3,time_sec,0.488169,0.198832
+many_moves,"Nhiều nước đi hợp lệ, nhiều nhánh cần xét",many_legal_moves,O,medium,3,expected_hit,,
+many_moves,"Nhiều nước đi hợp lệ, nhiều nhánh cần xét",many_legal_moves,O,medium,3,node_ratio_minimax_over_alphabeta,3.70,1.00
+many_moves,"Nhiều nước đi hợp lệ, nhiều nhánh cần xét",many_legal_moves,O,medium,3,time_ratio_minimax_over_alphabeta,2.46,1.00
+many_moves,"Nhiều nước đi hợp lệ, nhiều nhánh cần xét",many_legal_moves,O,hard,4,move,"(8,6)","(8,6)"
+many_moves,"Nhiều nước đi hợp lệ, nhiều nhánh cần xét",many_legal_moves,O,hard,4,value,-1600,-1600
+many_moves,"Nhiều nước đi hợp lệ, nhiều nhánh cần xét",many_legal_moves,O,hard,4,nodes,22620,1563
+many_moves,"Nhiều nước đi hợp lệ, nhiều nhánh cần xét",many_legal_moves,O,hard,4,time_sec,8.196114,1.305092
+many_moves,"Nhiều nước đi hợp lệ, nhiều nhánh cần xét",many_legal_moves,O,hard,4,expected_hit,,
+many_moves,"Nhiều nước đi hợp lệ, nhiều nhánh cần xét",many_legal_moves,O,hard,4,node_ratio_minimax_over_alphabeta,14.47,1.00
+many_moves,"Nhiều nước đi hợp lệ, nhiều nhánh cần xét",many_legal_moves,O,hard,4,time_ratio_minimax_over_alphabeta,6.28,1.00
+midgame,Trạng thái giữa ván,midgame,O,easy,2,move,"(8,8)","(8,8)"
+midgame,Trạng thái giữa ván,midgame,O,easy,2,value,-47500,-47500
+midgame,Trạng thái giữa ván,midgame,O,easy,2,nodes,72,39
+midgame,Trạng thái giữa ván,midgame,O,easy,2,time_sec,0.019335,0.015313
+midgame,Trạng thái giữa ván,midgame,O,easy,2,expected_hit,,
+midgame,Trạng thái giữa ván,midgame,O,easy,2,node_ratio_minimax_over_alphabeta,1.85,1.00
+midgame,Trạng thái giữa ván,midgame,O,easy,2,time_ratio_minimax_over_alphabeta,1.26,1.00
+midgame,Trạng thái giữa ván,midgame,O,medium,3,move,"(9,8)","(9,8)"
+midgame,Trạng thái giữa ván,midgame,O,medium,3,value,10000000,10000000
+midgame,Trạng thái giữa ván,midgame,O,medium,3,nodes,1110,324
+midgame,Trạng thái giữa ván,midgame,O,medium,3,time_sec,0.258701,0.098688
+midgame,Trạng thái giữa ván,midgame,O,medium,3,expected_hit,,
+midgame,Trạng thái giữa ván,midgame,O,medium,3,node_ratio_minimax_over_alphabeta,3.43,1.00
+midgame,Trạng thái giữa ván,midgame,O,medium,3,time_ratio_minimax_over_alphabeta,2.62,1.00
+midgame,Trạng thái giữa ván,midgame,O,hard,4,move,"(9,8)","(9,8)"
+midgame,Trạng thái giữa ván,midgame,O,hard,4,value,10000000,10000000
+midgame,Trạng thái giữa ván,midgame,O,hard,4,nodes,22356,1336
+midgame,Trạng thái giữa ván,midgame,O,hard,4,time_sec,4.908507,0.527247
+midgame,Trạng thái giữa ván,midgame,O,hard,4,expected_hit,,
+midgame,Trạng thái giữa ván,midgame,O,hard,4,node_ratio_minimax_over_alphabeta,16.73,1.00
+midgame,Trạng thái giữa ván,midgame,O,hard,4,time_ratio_minimax_over_alphabeta,9.31,1.00
+must_block,"Người chơi sắp thắng, máy cần chặn",block_now,O,easy,2,move,"(6,9)","(6,9)"
+must_block,"Người chơi sắp thắng, máy cần chặn",block_now,O,easy,2,value,0,0
+must_block,"Người chơi sắp thắng, máy cần chặn",block_now,O,easy,2,nodes,0,0
+must_block,"Người chơi sắp thắng, máy cần chặn",block_now,O,easy,2,time_sec,0.000734,0.000734
+must_block,"Người chơi sắp thắng, máy cần chặn",block_now,O,easy,2,expected_hit,True,True
+must_block,"Người chơi sắp thắng, máy cần chặn",block_now,O,easy,2,node_ratio_minimax_over_alphabeta,,
+must_block,"Người chơi sắp thắng, máy cần chặn",block_now,O,easy,2,time_ratio_minimax_over_alphabeta,1.00,1.00
+must_block,"Người chơi sắp thắng, máy cần chặn",block_now,O,medium,3,move,"(6,9)","(6,9)"
+must_block,"Người chơi sắp thắng, máy cần chặn",block_now,O,medium,3,value,0,0
+must_block,"Người chơi sắp thắng, máy cần chặn",block_now,O,medium,3,nodes,0,0
+must_block,"Người chơi sắp thắng, máy cần chặn",block_now,O,medium,3,time_sec,0.000741,0.000742
+must_block,"Người chơi sắp thắng, máy cần chặn",block_now,O,medium,3,expected_hit,True,True
+must_block,"Người chơi sắp thắng, máy cần chặn",block_now,O,medium,3,node_ratio_minimax_over_alphabeta,,
+must_block,"Người chơi sắp thắng, máy cần chặn",block_now,O,medium,3,time_ratio_minimax_over_alphabeta,1.00,1.00
+must_block,"Người chơi sắp thắng, máy cần chặn",block_now,O,hard,4,move,"(6,9)","(6,9)"
+must_block,"Người chơi sắp thắng, máy cần chặn",block_now,O,hard,4,value,0,0
+must_block,"Người chơi sắp thắng, máy cần chặn",block_now,O,hard,4,nodes,0,0
+must_block,"Người chơi sắp thắng, máy cần chặn",block_now,O,hard,4,time_sec,0.000736,0.000728
+must_block,"Người chơi sắp thắng, máy cần chặn",block_now,O,hard,4,expected_hit,True,True
+must_block,"Người chơi sắp thắng, máy cần chặn",block_now,O,hard,4,node_ratio_minimax_over_alphabeta,,
+must_block,"Người chơi sắp thắng, máy cần chặn",block_now,O,hard,4,time_ratio_minimax_over_alphabeta,1.01,1.00
+opening,Trạng thái đầu ván,opening,O,easy,2,move,"(7,7)","(7,7)"
+opening,Trạng thái đầu ván,opening,O,easy,2,value,-1000,-1000
+opening,Trạng thái đầu ván,opening,O,easy,2,nodes,72,24
+opening,Trạng thái đầu ván,opening,O,easy,2,time_sec,0.011076,0.004729
+opening,Trạng thái đầu ván,opening,O,easy,2,expected_hit,True,True
+opening,Trạng thái đầu ván,opening,O,easy,2,node_ratio_minimax_over_alphabeta,3.00,1.00
+opening,Trạng thái đầu ván,opening,O,easy,2,time_ratio_minimax_over_alphabeta,2.34,1.00
+opening,Trạng thái đầu ván,opening,O,medium,3,move,"(7,7)","(7,7)"
+opening,Trạng thái đầu ván,opening,O,medium,3,value,-100,-100
+opening,Trạng thái đầu ván,opening,O,medium,3,nodes,888,256
+opening,Trạng thái đầu ván,opening,O,medium,3,time_sec,0.126977,0.045015
+opening,Trạng thái đầu ván,opening,O,medium,3,expected_hit,True,True
+opening,Trạng thái đầu ván,opening,O,medium,3,node_ratio_minimax_over_alphabeta,3.47,1.00
+opening,Trạng thái đầu ván,opening,O,medium,3,time_ratio_minimax_over_alphabeta,2.82,1.00
+opening,Trạng thái đầu ván,opening,O,hard,4,move,"(7,7)","(7,7)"
+opening,Trạng thái đầu ván,opening,O,hard,4,value,-2100,-2100
+opening,Trạng thái đầu ván,opening,O,hard,4,nodes,13824,1207
+opening,Trạng thái đầu ván,opening,O,hard,4,time_sec,2.082900,0.179467
+opening,Trạng thái đầu ván,opening,O,hard,4,expected_hit,True,True
+opening,Trạng thái đầu ván,opening,O,hard,4,node_ratio_minimax_over_alphabeta,11.45,1.00
+opening,Trạng thái đầu ván,opening,O,hard,4,time_ratio_minimax_over_alphabeta,11.61,1.00

@@ -1,4 +1,3 @@
 # Handles a single benchmark run (state + depth)
-
-def worker(state, depth):
-    return {}
+def run_single(state, depth, agent_class):
+    pass

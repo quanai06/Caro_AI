@@ -1,7 +1,6 @@
 from enum import Enum
 
-
 class GameMode(Enum):
-    NORMAL = "normal"
-    DEVELOPER = "developer"
-    BENCHMARK = "benchmark"
+    HUMAN_VS_AI = 1
+    AI_VS_AI = 2
+    BENCHMARK = 3

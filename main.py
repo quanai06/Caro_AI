@@ -1,15 +1,9 @@
-"""Thin entry point for Caro AI.
-Usage:
-    python main.py --mode human --algorithm minimax
-"""
-
-import argparse
-
-from caro_ai import app
+#!/usr/bin/env python3
+import sys
+from caro_ai.app import main, start_demo_ui
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--mode", choices=["human","benchmark"], default="human")
-    parser.add_argument("--algorithm", choices=["minimax","alphabeta"], default="minimax")
-    args = parser.parse_args()
-    app.run(mode=args.mode, algorithm=args.algorithm)
+    if len(sys.argv) > 1 and sys.argv[1] == 'demo':
+        start_demo_ui()
+    else:
+        main()
