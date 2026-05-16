@@ -1,5 +1,11 @@
 # Caro AI
 
+Caro AI mang đến một ván cờ Caro quen thuộc với giao diện đơn giản, dễ nhìn và phần AI có thể chọn thuật toán theo nhu cầu. Người chơi có thể bắt đầu nhanh từ menu, chọn lượt đi, chọn độ khó rồi vào bàn cờ để thi đấu trực tiếp với máy.
+
+![Giao diện menu Caro AI](caro_ai/assets/ui/image.png)
+
+![Giao diện ván chơi Caro AI](caro_ai/assets/ui/image_2.png)
+
 Caro AI là chương trình chơi cờ Caro có giao diện bằng Pygame và tích hợp hai thuật toán tìm kiếm đối kháng: Minimax và Alpha-Beta Pruning. Trò chơi dùng luật thắng 5 quân liên tiếp trên bàn cờ 15x15, cho phép người chơi đấu với máy, chọn máy đi trước hoặc người đi trước, chọn độ khó và chọn thuật toán AI ngay trong giao diện.
 
 ## Tổng quan chương trình
@@ -164,17 +170,57 @@ Lưu ý: thời gian benchmark có thể khác thời gian hiển thị khi chơ
 
 ```text
 Caro_AI/
-├── main.py
-├── requirements.txt
-├── README.md
+├── main.py                         # File chạy chính của chương trình
+├── requirements.txt                # Danh sách thư viện cần cài
+├── README.md                       # Tài liệu giới thiệu project
+├── report.pdf                      # Báo cáo tổng hợp project
 ├── caro_ai/
+│   ├── __init__.py                 # Khởi tạo package caro_ai
+│   ├── app.py                      # Điều phối menu, game và UI
+│   ├── modes.py                    # Khai báo các chế độ chơi
 │   ├── ai/
+│   │   ├── __init__.py             # Gom các lớp AI chính
+│   │   ├── base_agent.py           # Lớp nền cho các AI
+│   │   ├── minimax_agent.py        # AI dùng thuật toán Minimax
+│   │   ├── alphabeta_agent.py      # AI dùng Alpha-Beta Pruning
+│   │   ├── evaluation.py           # Hàm chấm điểm bàn cờ
+│   │   ├── move_ordering.py        # Sắp xếp và chọn nước ưu tiên
+│   │   └── zobrist.py              # Hash bàn cờ và lưu trạng thái
+│   ├── assets/
+│   │   ├── bg/
+│   │   │   └── main_menu_bg.png    # Ảnh nền màn hình menu
+│   │   └── ui/
+│   │       ├── image.png           # Ảnh giao diện menu
+│   │       └── image_2.png         # Ảnh giao diện ván chơi
 │   ├── benchmark/
+│   │   ├── __init__.py             # Khởi tạo package benchmark
+│   │   ├── runner.py               # Chạy benchmark và ghi CSV
+│   │   ├── test_states.json        # Các thế cờ dùng để test
+│   │   ├── worker.py               # Khung chạy một benchmark đơn
+│   │   ├── session.py              # Khung quản lý phiên benchmark
+│   │   ├── report_merge.py         # Khung gộp kết quả benchmark
+│   │   └── results/
+│   │       └── benchmark.csv       # Kết quả benchmark đã xuất
 │   ├── config/
+│   │   ├── ai_settings.json        # Cấu hình mặc định cho AI
+│   │   ├── game_settings.json      # Cấu hình bàn cờ và luật thắng
+│   │   └── dev_mode.json           # Cấu hình hỗ trợ khi phát triển
 │   ├── game/
-│   └── ui/
-├── docs/
+│   │   ├── __init__.py             # Gom các thành phần game
+│   │   ├── board.py                # Quản lý bàn cờ và nước đi
+│   │   ├── caro.py                 # Trạng thái và luồng một ván
+│   │   └── rules.py                # Kiểm tra điều kiện thắng
+│   ├── ui/
+│   │   ├── __init__.py             # Khởi tạo package UI
+│   │   ├── asset_loader.py         # Tải ảnh, font và placeholder
+│   │   ├── main_menu_clean.py      # Giao diện menu chính
+│   │   ├── menu_overlay.py         # Bảng chỉnh độ khó, AI, quân
+│   │   ├── pygame_ui.py            # Giao diện bàn cờ khi chơi
+│   │   └── widgets.py              # Các widget UI tái sử dụng
+│   └── utils/
+│       ├── __init__.py             # Khởi tạo package tiện ích
+│       ├── logger.py               # Ghi log kết quả ra CSV
+│       └── visualizer.py           # In bàn cờ ra console
 └── notebooks/
+    └── analysis.ipynb              # Notebook phân tích thử nghiệm
 ```
-
-
